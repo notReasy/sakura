@@ -8,32 +8,52 @@
 </head>
 <body>
     <header>
-        <h1>Willkommen auf meiner Webseite</h1>
+        <div class="logo">
+            <a href="#"><img src="logo.png" alt="Logo"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Startseite</a></li>
+                <li><a href="#">Über uns</a></li>
+                <li><a href="#">Projekte</a></li>
+                <li><a href="#">Kontakt</a></li>
+            </ul>
+        </nav>
     </header>
-    
-    <nav>
-        <ul class="tabs">
-            <li><a href="#projekte">Projekte</a></li>
-            <li><a href="#downloads">Downloads</a></li>
-            <li><a href="#discord">Discord</a></li>
-        </ul>
-    </nav>
 
-    <div class="content">
-        <section id="projekte" class="tab-content">
-            <h2>Projekte</h2>
-            <!-- Hier kannst du Informationen über deine Projekte einfügen -->
-        </section>
-        <section id="downloads" class="tab-content">
-            <h2>Downloads</h2>
-            <!-- Hier kannst du Links oder Informationen zu Downloads bereitstellen -->
-        </section>
-        <section id="discord" class="tab-content">
-            <h2>Discord</h2>
-            <!-- Hier kannst du Informationen zu deinem Discord-Server oder Chat einfügen -->
-        </section>
-    </div>
+    <section class="hero">
+        <h1>Willkommen auf unserer Webseite</h1>
+        <p>Wir bieten innovative Lösungen für Ihr Projekt.</p>
+        <a href="#" class="cta-button">Erfahren Sie mehr</a>
+    </section>
 
-    <script src="script.js"></script>
+    <section class="about">
+        <div class="container">
+            <h2>Über uns</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+    </section>
+
+    <section class="projects">
+        <div class="container">
+            <h2>Unsere Projekte</h2>
+            <div class="project">
+                <img src="project1.jpg" alt="Projekt 1">
+                <h3>Projekt 1</h3>
+                <p>Beschreibung des Projekts 1.</p>
+            </div>
+            <div class="project">
+                <img src="project2.jpg" alt="Projekt 2">
+                <h3>Projekt 2</h3>
+                <p>Beschreibung des Projekts 2.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Meine Webseite</p>
+        </div>
+    </footer>
 </body>
 </html>
