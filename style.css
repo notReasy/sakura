@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Hintergrundfarbe anpassen */
+}
+
+header {
+    background-color: #0056b3; /* Header-Hintergrundfarbe anpassen */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul.tabs {
+    list-style: none;
+    padding: 0;
+    background-color: #0056b3; /* Tab-Hintergrundfarbe anpassen */
+    overflow: hidden;
+}
+
+nav ul.tabs li {
+    float: left;
+    margin: 0;
+}
+
+nav ul.tabs li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s; /* Hinzugefügte Animation für Hover */
+}
+
+nav ul.tabs li a:hover {
+    background-color: #007acc; /* Hintergrundfarbe anpassen */
+}
+
+.tab-content {
+    display: none;
+    padding: 20px;
+    background-color: #fff; /* Hintergrundfarbe für den Inhalt anpassen */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); /* Hinzugefügter Schatten */
+}
+
+.tab-content h2 {
+    margin-top: 0;
+}
