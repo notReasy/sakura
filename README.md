@@ -13,7 +13,13 @@ start "sakura" "C:\Downloads\Sakura"
 
 ## Usage
 
-Start your Minecraft in your normal *1.8.9* and enjoy the functionality of Sakura when pressing **RSHIFT** ingame 
+Start your Minecraft in your normal *1.8.9* and enjoy the functionality of Sakura when pressing **RSHIFT** ingame
+
+
+
+Please remember that: We are not responsible for any repercussions you face using this client.
+We are merely providing you with it. Use at your own risk.
+
 
 ## Contributing
 
